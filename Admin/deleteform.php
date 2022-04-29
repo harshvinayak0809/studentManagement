@@ -2,7 +2,7 @@
 
 include('../dbcon.php');
 
-    $id=$_REQUEST['sid'];
+    $id=$_REQUEST['id'];
     
     $qry = "DELETE FROM `student` WHERE `id` = '$id'";
    
